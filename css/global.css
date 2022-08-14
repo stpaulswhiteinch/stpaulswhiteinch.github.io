@@ -1,0 +1,41 @@
+#sidebar .sidebar-profile .sidebar-profile-name {
+  color: black;
+}
+
+#sidebar ul.sidebar-buttons li.sidebar-button .sidebar-button-link {
+  color: black;
+}
+
+#sidebar[data-behavior="1"] 
+  .sidebar-profile .sidebar-profile-bio, #sidebar[data-behavior="1"] 
+  .sidebar-profile .sidebar-profile-job, #sidebar[data-behavior="1"] 
+  .sidebar-profile .sidebar-profile-location {
+  color: black;
+}
+
+#cover {
+  opacity: 50%;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 70.00%;
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.img-church-welcome {
+  width: 100%;
+  height: auto;
+}
