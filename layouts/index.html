@@ -16,10 +16,15 @@
             {{ partial "welcome.html" . }}
           {{ end }}
 
+          <!-- 
+            No one had time to keep the weekly buletin links updated so we are removing them. 
+            In case we have a volunteer it would just be a matter of uncommenting this section
+            and adding bulletin files into the content folder.
           {{ range $paginator.Pages }}
             {{ .Render "summary" }}
           {{ end }}
-          {{ partial "pagination.html" . }}
+          {{ partial "pagination.html" . }} 
+          -->
         </section>
         {{ partial "footer.html" . }}
       </div>
